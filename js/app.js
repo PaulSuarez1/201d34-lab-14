@@ -9,7 +9,7 @@
 var Cart = function (item, quantity) {
   this.item = item;
   this.quantity = quantity;
-  cart.allItems.push(this);
+  Cart.allItems.push(this);
 };
 Cart.allItems = [];
 
