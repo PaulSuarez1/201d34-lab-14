@@ -40,11 +40,13 @@ function handleSubmit(event) {
 function addSelectedItemToCart() {
  new Cart (event.target["1"].value, event.target["2"].value);
   console.log(event.target["1"].value, event.target["2"].value);
-
+};
   // TODO: suss out the item picked from the select list
+  function ClearCartFastAlt(optionEl){
+  };
   // TODO: get the quantity
   // TODO: using those, create a new Cart item instance
-}
+
 
 // TODO: Save the contents of the cart to Local Storage
 function saveCartToLocalStorage() {
